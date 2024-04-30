@@ -1,17 +1,8 @@
 # insuranceapp
 
-A new Flutter project.
+A Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Vehicle-Insurance
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Vehicle-Insurance
+A full - fledged functional Vehicle insurance which allows users to register and then registers policies for their vehicles and also Claim their Insurance when required. It consists of a comprehensive database of MYSQL containing 22 tables which is hosted on AWS for making its usage available globally. The Database hosted on AWS is currently stopped and the app cannot be accessed.
