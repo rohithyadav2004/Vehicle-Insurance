@@ -5,11 +5,11 @@ class DatabaseHelper {
 
   Future<void> connectToDatabase() async {
     _connection = await MySqlConnection.connect(ConnectionSettings(
-      host: 'test-insurance.cf2io4cwq71q.us-east-1.rds.amazonaws.com',
+      host: 'aws endpoint',
       port: 3306, // Default MySQL port
-      user: 'admin',
-      password: 'monkeydluffy',
-      db: 'test_car_insurance',
+      user: 'username',
+      password: 'password',
+      db: 'database name',
     ));
   }
   Future<void> closeConnection() async {
